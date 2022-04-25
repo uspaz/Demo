@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eparki Perú</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Link Css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container--logo">
+      <div></div>
+      <p>Eparki ® Wear</p>
+    </div>
+    <div class="container--navbar">
+      <span class="burger--menu" id="menu"><i class="fas fa-bars"></i></span>
+      <span class="close--menu"><i class="fas fa-times"></i> </span>
+      <nav class="nav" id="nav--menu">
+        <ul class="nav__ul">
+          <li class="item"><a href="">Temporadas</a></li>
+          <li class="item"><a href="">Tienda</a></li>
+          <li class="item"><a href="">Nosotros</a></li>
+          <li class="item"><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/imagen1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h1>Eparki Wear</h1>
+              <p>texto de prueba para el carrusel</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagen2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagen3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <article class="contenedor">
+        <section class="category">
+          <div class="category--item">
+            <img src="" alt="">
+            <figcaption class="item__footer">
+              <h4>Primer Categoría</h3>
+            </figcaption>
+          </div>
+          <div class="category--item">
+            <img src="" alt="">
+            <figcaption class="item__footer">
+              <h4>Segunda Categoría</h3>
+            </figcaption>
+          </div>
+          <div class="category--item">
+            <img src="" alt="">
+            <figcaption class="item__footer">
+              <h4>Tercera Categoría</h3>
+            </figcaption>
+          </div>
+        </section>
+        <section classs="clothes">
+          <div class="banner">
+            <h3>Prendas más vendidas</h3>
+              <p>Los productos más destacados en nuestra tienda</p>
+          </div>
+          <div class="container">
+            <div class="container__card">
+              <div class="card">
+              </div>
+              <p>Nombre de la prenda 1</p>
+              <button class="btn">Ver más</button>
+            </div>
+            <div class="container__card">
+              <div class="card">
+              </div>
+              <p>Nombre de la prenda 2</p>
+              <button class="btn">Ver más</button>
+            </div>
+            <div class="container__card">
+              <div class="card">
+              </div>
+              <p>Nombre de la prenda 3</p>
+              <button class="btn">Ver más</button>
+            </div>
+            <div class="container__card">
+              <div class="card">
+              </div>
+              <p>Nombre de la prenda 4</p>
+              <button class="btn">Ver más</button>
+            </div>
+          </div>
+        </section>
+        <section class="gallery">
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+          <div class="gallery--image"></div>
+        </section>
+      </article>
+  </main>
+  <footer class="footer">
+    <div class="derechos">
+      <p>© Copyright 2022. Todos los derechos reservados.</p>
+    </div>
+    <div class="marca">
+      <p>Eparki Wear</p>
+    </div>
+    <div class="redes">
+      <ul class="redes__ul">
+        <li class="redes--item"><a href=""><i class="fab fa-instagram instagram"></i></a></li>
+        <li class="redes--item"><a href=""><i class="fab fa-facebook-square facebook"></i></a></li>
+        <li class="redes--item"><a href=""><i class="fab fa-whatsapp whatsapp"></i></a></li>
+    </ul>
+  </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/7db1b9fcb6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
