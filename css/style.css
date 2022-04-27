@@ -269,6 +269,10 @@
       margin: 0px auto; } }
 
 @media only screen and (min-width: 992px) {
+  .main .carousel {
+    margin: 60px auto 0px;
+    height: calc(100vh - 50px);
+    overflow: hidden; }
   .footer .derechos {
     width: 200px; }
   .footer .redes {
