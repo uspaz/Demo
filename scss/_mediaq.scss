@@ -1,5 +1,37 @@
 @media only screen and (min-width: 600px){
+  .header{
+    .container--navbar{
+      .nav{
+        
+        .nav__ul{
+          width: 65%;
+        }
+      }
+      .active{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
   .main{
+    .carousel{
+      .carousel-control-next{
+        .control-next{
+          svg{
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+      .carousel-control-prev{
+        .control-prev{
+          svg{
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+    }
     .contenedor{
       .category{
         margin: 70px 0px;
@@ -10,14 +42,11 @@
         }
       }
       .banner{
-        flex-direction: column;
         h3{
-          width: 300px;
-          right: 0;
-        }
-        p{
-          width: 400px;
-          margin-top: 10px;
+          font-size: 25px;
+          img{
+            width: 28px;
+          }
         }
       }
     }
@@ -37,34 +66,55 @@
 @media only screen and (min-width: 768px){
   .header{
     .container--logo{
-      width: 40%;
+      width: 30%;
     }
     .container--navbar{
-      width: 60%;
+      width: 70%;
       .burger--menu{
-        display: none;
+        display: none !important;
       }
       .nav{
         height: 60px;
         position: relative;
         top: 0px;
-        opacity: 1;
-        pointer-events: unset;
+        left: 0px;
+        transform: translateX(0);
         .nav__ul{
           height: 100%;
+          width: 100%;
           flex-direction: row;
           padding: 0px;
           background-color: transparent;
-          justify-content: space-around;
+          justify-content: space-evenly;
           gap: 0px;
+          text-align: center;
           .item{
-            font-size: 18px;
+            width: 100px;
+            font-size: 17px;
           }
         }
       }
     }
   }
   .main{
+    .carousel{
+      .carousel-control-next{
+        .control-next{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      .carousel-control-prev{
+        .control-prev{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+    }
     .contenedor{
       .category{
         gap: 20px;
@@ -77,16 +127,75 @@
           }
         }
       }
+      .banner{
+        h3{
+          font-size: 30px;
+          letter-spacing: 2px;
+          img{
+            width: 38px;
+          }
+        }
+      }
     }
   }
 }
 
 @media only screen and (min-width: 992px){
+  .header{
+    .container--navbar{
+      .nav{
+        .nav__ul{
+          .item{
+            font-size: 18px;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
   .main{
     .carousel{
       margin: 60px auto 0px;
-      height: calc(100vh - 50px);
       overflow: hidden;
+      .carousel-control-prev{
+        transform: translateX(-100vh);
+        transition: .6s;
+        .control-prev{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      .carousel-control-next{
+        transform: translateX(100vh);
+        transition: .6s;
+        .control-next{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      &:hover{
+        .carousel-control-prev{
+          transform: translateX(0);
+        }
+        .carousel-control-next{
+          transform: translateX(0);
+        }
+      }
+    }
+    .contenedor{
+      .banner{
+        h3{
+          font-size: 30px;
+          letter-spacing: 5px;
+          img{
+            width: 38px;
+          }
+        }
+      }
     }
   }
   .footer{
@@ -95,6 +204,23 @@
     }
     .redes{
       width: 200px;
+    }
+  }
+}
+@media only screen and(min-width: 1200px){
+  .header{
+    .container--logo{
+      width: 40%;
+    }
+    .container--navbar{
+      width: 60%;
+      .nav{
+        .nav__ul{
+          .item{
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 }

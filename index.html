@@ -24,6 +24,7 @@
           <li class="item"><a href="">Temporadas</a></li>
           <li class="item"><a href="">Tienda</a></li>
           <li class="item"><a href="">Nosotros</a></li>
+          <li class="item"><a href="">Preguntas Frecuentes</a></li>
           <li class="item"><a href="">Contacto</a></li>
         </ul>
       </nav>
@@ -52,11 +53,35 @@
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="control-prev" aria-hidden="true"><svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.929 5L18.3432 6.41421L12.6863 12.0711L18.3432 17.7279L16.929 19.1421L9.85789 12.0711L16.929 5Z"
+              fill="currentColor"
+            />
+            <path d="M8 19V5H6V19H8Z" fill="currentColor" />
+          </svg></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="control-next" aria-hidden="true"><svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.41421 5L6 6.41421L11.6569 12.0711L6 17.7279L7.41421 19.1421L14.4853 12.0711L7.41421 5Z"
+              fill="currentColor"
+            />
+            <path d="M16.3432 19V5H18.3432V19H16.3432Z" fill="currentColor" />
+          </svg></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
@@ -83,8 +108,7 @@
         </section>
         <section classs="clothes">
           <div class="banner">
-            <h3>Prendas más vendidas</h3>
-              <p>Los productos más destacados en nuestra tienda</p>
+            <h3><img src="data:image/png;base64,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"/> Lo más vendido en esta semana  <img src="data:image/png;base64,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"/></h3>
           </div>
           <div class="container">
             <div class="container__card">
@@ -109,6 +133,12 @@
               <div class="card">
               </div>
               <p>Nombre de la prenda 4</p>
+              <button class="btn">Ver más</button>
+            </div>
+            <div class="container__card">
+              <div class="card">
+              </div>
+              <p>Nombre de la prenda 5</p>
               <button class="btn">Ver más</button>
             </div>
           </div>

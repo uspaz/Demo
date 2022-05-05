@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('http://fonts.cdnfonts.com/css/univers-lt-std');
 
 *{
   padding: 0px;
@@ -31,9 +32,10 @@
       width: 80px;
       text-align: center;
       color: #ffff;
-      font-size: 18px;
-      font-family: 'Questrial', sans-serif;
+      font-size: 19px;
+      font-family: 'Univers LT Std', sans-serif;
       margin: 0;
+      line-height: 23px;
     }
   }
   .container--navbar{
@@ -56,11 +58,10 @@
     .nav{
       position: absolute;
       top: 60px;
-      left: 0;
-      right: 0;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity  .8s;
+      left: 0px;
+      width: 100%;
+      transform: translateX(100vh);
+      transition: 1s ease-out;
       z-index: 200;
       .nav__ul{
         width: 100%;
@@ -85,9 +86,8 @@
       }
     }
     .active{
-      opacity: 1;
-      pointer-events: unset;
-      transition: opacity .8s;
+      transition: 1s ease-out;
+      transform: translateX(0);
     }
   }
 }
