@@ -137,7 +137,7 @@
     background: url("../img/imagen4.jpg");
     margin: 50px 0px;
     color: #fff;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Univers LT Std', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -280,8 +280,8 @@
         gap: 0px;
         text-align: center; }
         .header .container--navbar .nav .nav__ul .item {
-          width: 100px;
-          font-size: 17px; }
+          width: 90px !important;
+          font-size: 16px; }
   .main .carousel .carousel-control-next .control-next svg {
     height: 50px;
     width: 50px; }
@@ -339,4 +339,5 @@
   .header .container--navbar {
     width: 60%; }
     .header .container--navbar .nav .nav__ul .item {
+      width: auto !important;
       font-size: 20px; } }
