@@ -1,0 +1,929 @@
+[
+  [ 
+    {
+      "id": 1,
+      "name": "Muse Playlist Simulation Theory",
+      "src": {
+        "0": "./img/Muse Playlist Simulation Theory.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "S",
+        "1": "M",
+        "2": "L",
+        "3": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 2,
+      "name": "VXR 2019",
+      "src": "",
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Blanco",
+        "1": "Lila"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 3,
+      "name": "Slayer Classic",
+      "src": 
+      {
+        "0": "./img/Slayer Classic.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 4,
+      "name": "Bon Jovi Breakhearth",
+      "src": 
+      {
+        "0": "./img/Bon Jovi Breakheart--01.webp",
+        "1": "./img/Bon Jovi Breakheart--02.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "S",
+        "1": "M",
+        "2": "L",
+        "3": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 5,
+      "name": "AC/DC High Voltage",
+      "src": 
+      {
+        "0": "./img/AC_DC High Voltage.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 6,
+      "name": "Slipknot Goat",
+      "src": 
+      {
+        "0": "./img/Slipknot Goat--01.webp",
+        "1":"./img/Slipknot Goat--02.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 7,
+      "name": "The Offspring Radical Bone",
+      "src": 
+      {
+        "0": "./img/The Offspring Radical Bone.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 8,
+      "name": "Muse Coincert Concept",
+      "src": 
+      {
+        "0": "./img/Muse Concert Concept.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 9,
+      "name": "Bullet For My Valentine",
+      "src": "",
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 10,
+      "name": "Sobredosis De TV",
+      "src": 
+      {
+        "0": "./img/Sobredosis de TV--01.webp",
+        "1": "./img/Sobredosis de TV--02.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 11,
+      "name": "Bon Jovi Shield",
+      "src": 
+      {
+        "0": "./img/Bon Jovi Shield.webp",
+        "1": "./img/Bon Jovi Shield Crop.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 12,
+      "name": "Soda Stereo Tributo",
+      "src": 
+      {
+        "0": "./img/Soda Stereo Tributo.webp",
+        "1": "./img/Soda Stereo Tributo Crop.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 13,
+      "name": "The Strokes Blinding Dark",
+      "src": 
+      {
+        "0": "./img/The Strokes Blinding Dark.webp",
+        "1":"./img/The Strokes Blinding Light.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },{
+      "id": 14,
+      "name": "The Strokes Sunset",
+      "src": 
+      {
+        "0": "./img/The Strokes Sunset.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 15,
+      "name": "The Strokes Radio",
+      "src": 
+      {
+        "0": "./img/The Strokes Radio.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 16,
+      "name": "Muse Classic",
+      "src": 
+      {
+        "0": "./img/Muse Classic--01.webp",
+        "1": "./img/Muse Classic--02.webp",
+        "2": "./img/Muse Classic Crop.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 17,
+      "name": "Spliknot Duality",
+      "src": 
+      {
+        "0": "./img/Slipknot Duality.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 18,
+      "name": "Soda Stereo 84",
+      "src": 
+      {
+        "0": "./img/Soda Stereo 84.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 19,
+      "name": "Soda Stereo Classic",
+      "src": "",
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 20,
+      "name": "The Rasmus",
+      "src": 
+      {
+        "0": "./img/The Rasmus Classic.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 21,
+      "name": "The Rockstar",
+      "src": 
+      {
+        "0": "./img/The Rockstar.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    }
+  ],
+  [
+    {
+      "id": 22,
+      "name": "Ramones High School Rock",
+      "src": 
+      {
+        "0": "./img/Ramones High School Rock.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Plomo Melange"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 23,
+      "name": "RHCP Red Shades",
+      "src": 
+      {
+        "0": "./img/RHCP Red Shades.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 24,
+      "name": "Ghost Oppus Eponymous",
+      "src": 
+      {
+        "0": "./img/Ghost Opus Eponymous.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "S",
+        "1": "M",
+        "2": "L",
+        "3": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 25,
+      "name": "David Bowie Rainbow Space",
+      "src": 
+      {
+        "0": "./img/David Bowie Rainbow Space.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "S",
+        "1": "M",
+        "2": "L",
+        "3": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 26,
+      "name": "Kiss Love On Fire",
+      "src": 
+      {
+        "0": "./img/Kiss Love On Fire.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 27,
+      "name": "Kiss Glow Up",
+      "src": 
+      {
+        "0": "./img/Kiss Glow Up.webp"
+      },
+      "modelos": {
+        "0": "Crop"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "S",
+        "1": "M",
+        "2": "L"
+      },
+      "stock": true
+    },
+    {
+      "id": 28,
+      "name": "Black Sabbath Dark Conspiracy",
+      "src": 
+      {
+        "0": "./img/Black Sabbath Dark Conspiracy.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 29,
+      "name": "Pink Floyd Time 72",
+      "description": "Pink Floyd es una de las bandas más influyentes de las últimas décadas por su gran contenido filosófico y armonioso, analizando lo ínfimo hasta lo más complejo de la vida. El modelo está inspirado entre los años de 1972 y 1973 siendo esta época de mayor experimentación musical muchas veces rozando con el Blues, Folk y Soft Rock. Vió la luz 'Time' entre esos años, uno de los temas simbólicos del disco The Dark Side of The Moon, contrastando con contemporaneidad del disco “Animals” haciendo una metáfora de la sociedad y la industria fría como un cerdo.",
+      "src":"",
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 30,
+      "name": "Aerosmith Sweet Emotion",
+      "description": "Eparki Perú presenta Sweet Emotion, Aerosmith es una banda del más grande apogeo durante más de cuatro décadas cuyo sonido agresivamente rítmico tiene raíces en el funk y en el blues, Además contribuyó a establecer el sonido del hard rock y heavy metal de los 80 y 90.",
+      "src": 
+      {
+        "0": "./img/Aerosmith Sweet Emotion.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1":"Crop"
+      },
+      "colors": {
+        "0":"Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    }
+    ,
+    {
+      "id": 31,
+      "name": "Artic Monkeys Arabella Color",
+      "src": "",
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Plomo Melange"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 32,
+      "name": "Metallica Claim Justice",
+      "description": "Metallica es una banda de trash metal, en este disco alude a la falta de justicia y a la corrupción imperante en el gobierno. Aunque hayan pasado tres décadas desde su lanzamiento, sigue siendo un tema vigente en la actualidad degeneración judicial, dada su incapacidad para mantener limpios sus mecanismos de control.",
+      "src": 
+      {
+        "0": "./img/Metallica Claim Justice.webp",
+        "1":"./img/Metallica Claim Justice Unisex.webp"
+      },
+      "modelos": {
+        "0": "Malla",
+        "1": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "S",
+        "1": "M",
+        "2": "L",
+        "3": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 33,
+      "name": "Joy Division Unknow Pleasures",
+      "src": 
+      {
+        "0": "./img/Joy Division Unknown Pleasures.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 34,
+      "name": "Twenty One Pilots",
+      "src": 
+      {
+        "0": "./img/Twenty One Pilots Dissociative Disorder.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 35,
+      "name": "Queen Flashback Wembley",
+      "src": 
+      {
+        "0": "./img/Queen Flashback Wembley.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 36,
+      "name": "Misfits Back To Life",
+      "src": 
+      {
+        "0": "./img/Misfits Back To Life.webp"
+      },
+      "modelos": {
+        "0": "Unisex",
+        "1": "Crop"
+      },
+      "colors": {
+        "0":"Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 37,
+      "name": "The Rolling Stones Dangerous Peack",
+      "src": "",
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 38,
+      "name": "Pink Floyd Heaven",
+      "src": 
+      {
+        "0": "./img/Pink Floyd Heaven.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco",
+        "1": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 39,
+      "name": "GNR Modern Christ",
+      "src": 
+      {
+        "0": "./img/GNR Modern Christ.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0": "Negro"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    },
+    {
+      "id": 40,
+      "name": "The Cramps Kismiaz",
+      "src": 
+      {
+        "0": "./img/The Cramps Kismiaz.webp"
+      },
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    }
+  ],
+  [
+    {
+      "id": 41,
+      "name": "Des-Gobierno",
+      "description": "Sabemos que siempre elegimos el mal menor, Y este año no es la excepcion ¿Si tan solo hubiera una manera de mostrar tu disconformidad?. Más de 200 años y aún no te sientes representado y estás cansado de este DES-GOBIERNO (desinterés por el real gobierno) tenemos preparado este Merch Eparki Limited Edition que alzará tu voz de protesta y estará contigo a dónde vayas.",
+      "modelos": {
+        "0": "Unisex"
+      },
+      "colors": {
+        "0":"Blanco"
+      },
+      "talla": {
+        "0": "XS",
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL"
+      },
+      "stock": true
+    }
+  ]
+]
