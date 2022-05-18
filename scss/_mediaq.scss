@@ -64,6 +64,7 @@
 
 @media only screen and (min-width: 768px){
   .header{
+    height: 70px;
     .container--logo{
       width: 30%;
     }
@@ -73,7 +74,7 @@
         display: none !important;
       }
       .nav{
-        height: 60px;
+        height: 70px;
         position: relative;
         top: 0px;
         left: 0px;
@@ -208,12 +209,17 @@
 }
 @media only screen and(min-width: 1200px){
   .header{
+    height: 80px;
     .container--logo{
       width: 40%;
+      img{
+        width: 190px;
+      }
     }
     .container--navbar{
       width: 60%;
       .nav{
+        height: 80px;
         .nav__ul{
           .item{
             width: auto !important;
