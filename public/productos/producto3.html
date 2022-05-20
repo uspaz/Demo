@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Producto |Eparki Perú</title>
+  <link rel="icon" href="../../img/Logo light.webp" >
+  <title>Eparki Perú | Bon Jovi Breakheart</title>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Link Css -->
@@ -22,11 +23,11 @@
       <span class="close--menu"><i class="fas fa-times"></i> </span>
       <nav class="nav" id="nav--menu">
         <ul class="nav__ul">
-          <li class="item"><a href="../index.html">Inicio</a></li>
-          <li class="item"><a href="tienda.html">Tienda</a></li>
-          <li class="item"><a href="nosotros.html">Nosotros</a></li>
-          <li class="item"><a href="preguntas.html">Preguntas Frecuentes</a></li>
-          <li class="item"><a href="contacto.html">Contacto</a></li>
+          <li class="item"><a href="/index.html">Inicio</a></li>
+          <li class="item"><a href="/public/tienda.html">Tienda</a></li>
+          <li class="item"><a href="/public/nosotros.html">Nosotros</a></li>
+          <li class="item"><a href="/public/preguntas.html">Preguntas Frecuentes</a></li>
+          <li class="item"><a href="/public/contacto.html">Contacto</a></li>
         </ul>
       </nav>
     </div>
@@ -47,12 +48,11 @@
       <div class="row">
          <div class="col-md-6 mb-4">
            <div class="d-flex align-items-center justify-content-center  p-4">
-            <div class="carousel slide pointer-event" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-              </div>
-
+               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="../../img/Bon Jovi Breakheart--01.webp" class="d-block w-100" alt="...">
@@ -61,10 +61,17 @@
                   <img src="../../img/Bon Jovi Breakheart--02.webp" class="d-block w-100" alt="...">
                 </div>
               </div>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-           </div>
-        </div>
+            </div>
+          </div>
         
         <!--DETALLES PRODUCTO-->
         <div class="col-md-6 mb-4">
@@ -87,22 +94,13 @@
 
             <p class="lead font-weight-bold">Descripcion</p>
             <p>Remera Bon Jovi Breakheart con una excelente calidad de tela, disponible en varios talles, con diseño exclusivo y solamente la podes encontrar acá. <br>Eparki Perú</p>
-            <div class="my-3">  
-              <label for="exampleColorInput" class="form-label">Color</label>
-              <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#ffFf" title="Choose your color">
-            </div>
-            <select class="form-select my-3" aria-label="Default select example">
-              <option selected="">Elegi un talle</option>
-              <option value="1">S</option>
-              <option value="2">M</option>
-              <option value="3">L</option>
-            </select>
-            <form class="d-flex justify-content-left">
-              <button class="btn btn-primary btn-md my-0 p waves-effect waves-light" type="submit">Comprar
-                <i class="fas fa-shopping-cart ml-1" aria-hidden="true"></i>
-              </button>
-            </form>
+            <div class="my-2">  
+              <label for="exampleColorInput" class="form-label"></label>
+             </div>
+            <a href="/public/tienda.html"><button class="btn btn-dark btn-md my-3 p waves-effect waves-light" type="submit">Ir a tienda</button></a> 
+            <a href="https://api.whatsapp.com/send?phone=+5412341234" target="_blank"><button class="btn btn-success btn-md my-3 p waves-effect waves-light" type="submit">Comprar <i class="fas fa-shopping-cart ml-1" aria-hidden="true"></i></button></a> 
           </div>
+        </div>
         </div>
       </div>
   </main>

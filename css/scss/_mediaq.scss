@@ -1,0 +1,241 @@
+@media only screen and (min-width: 600px){
+  .header{
+    .container--navbar{
+      .nav{
+        .nav__ul{
+          width: 65%;
+        }
+      }
+      .active{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+  .main{
+    .carousel{
+      .carousel-control-next{
+        .control-next{
+          svg{
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+      .carousel-control-prev{
+        .control-prev{
+          svg{
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+    }
+    .contenedor{
+      .category{
+        margin: 70px 0px;
+        gap: 40px;
+        .category--item{
+          width: 350px;
+          height: 200px;
+        }
+      }
+      .banner{
+        h3{
+          font-size: 25px;
+          img{
+            width: 28px;
+          }
+        }
+      }
+    }
+  }
+  .main--faq{
+    .faq{
+      .section-title{
+        h1{
+          font-size: calc(1.425rem + 1.5vw);
+        }
+      }
+    }
+  }
+  .footer{
+    height: 100px;
+    flex-direction: row;
+    .derechos{
+      width: 120px;
+    }
+    .redes{
+      width: 120px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .header{
+    height: 70px;
+    .container--logo{
+      width: 30%;
+    }
+    .container--navbar{
+      width: 70%;
+      .burger--menu{
+        display: none !important;
+      }
+      .nav{
+        height: 70px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        transform: translateX(0);
+        .nav__ul{
+          height: 100%;
+          width: 100%;
+          flex-direction: row;
+          padding: 0px;
+          background-color: transparent;
+          justify-content: space-evenly;
+          gap: 0px;
+          text-align: center;
+          .item{
+            width: 90px !important;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .main{
+    .carousel{
+      .carousel-control-next{
+        .control-next{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      .carousel-control-prev{
+        .control-prev{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+    }
+    .contenedor{
+      .category{
+        gap: 20px;
+      }
+      .container{
+        gap: 30px;
+        .container__card{
+          .btn{
+            margin: 0px auto;
+          }
+        }
+      }
+      .banner{
+        h3{
+          font-size: 30px;
+          letter-spacing: 2px;
+          img{
+            width: 38px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .header{
+    .container--navbar{
+      .nav{
+        .nav__ul{
+          .item{
+            font-size: 18px;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+  .main{
+    .carousel{
+      margin: 60px auto 0px;
+      overflow: hidden;
+      .carousel-control-prev{
+        transform: translateX(-100vh);
+        transition: .6s;
+        .control-prev{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      .carousel-control-next{
+        transform: translateX(100vh);
+        transition: .6s;
+        .control-next{
+          svg{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      &:hover{
+        .carousel-control-prev{
+          transform: translateX(0);
+        }
+        .carousel-control-next{
+          transform: translateX(0);
+        }
+      }
+    }
+    .contenedor{
+      .banner{
+        h3{
+          font-size: 30px;
+          letter-spacing: 5px;
+          img{
+            width: 38px;
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    .derechos{
+      width: 200px;
+    }
+    .redes{
+      width: 200px;
+    }
+  }
+}
+@media only screen and(min-width: 1200px){
+  .header{
+    height: 80px;
+    .container--logo{
+      width: 40%;
+      img{
+        width: 190px;
+      }
+    }
+    .container--navbar{
+      width: 60%;
+      .nav{
+        height: 80px;
+        .nav__ul{
+          .item{
+            width: auto !important;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
