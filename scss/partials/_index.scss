@@ -54,7 +54,9 @@
         width: 300px;
         height: 150px;
         margin: 0px auto;
-        background-color: #274c77;
+        background-image: url('https://scontent-eze1-1.xx.fbcdn.net/v/t1.6435-9/70727457_2883474158353590_3330939157445869568_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=09cbfe&_nc_eui2=AeHtb8RZ9izaoC8dxNDseJljglrtfmJOr7eCWu1-Yk6vt1t0jzpqEBmtsGOcrbD987A&_nc_ohc=Df4OXSPJLg8AX-jFfNJ&tn=Aa3_Ec31wmznzr-s&_nc_ht=scontent-eze1-1.xx&oh=00_AT9c4rNBrGz_N_YXSLwtbC1az9k988F5OKvLDHUbP5Nc-Q&oe=62A276DC');
+        background-position: center;
+        background-size: cover;
         position: relative;
         cursor: pointer;
         .item__footer{
@@ -83,7 +85,7 @@
     .banner{
       height: 150px;
       width: 100%;
-      background: url("../img/imagen4.jpg");
+      background: url("../../img/imagen5.jpg");
       margin: 50px 0px;
       color: #fff;
       font-family: 'Univers LT Std', sans-serif;

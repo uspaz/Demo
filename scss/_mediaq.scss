@@ -50,6 +50,15 @@
       }
     }
   }
+  .main--faq{
+    .faq{
+      .section-title{
+        h1{
+          font-size: calc(1.425rem + 1.5vw);
+        }
+      }
+    }
+  }
   .footer{
     height: 100px;
     flex-direction: row;
